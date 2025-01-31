@@ -5,6 +5,7 @@ import Message from './components/Message.jsx'
 import Timer from './components/Timer.jsx';
 import Demo from './components/Demo.jsx';
 import WeatherApp from './components/WeatherApp.jsx';
+import ToDoList from './components/ToDoList.jsx';
 import "./index.css";
 
 
@@ -21,6 +22,7 @@ function App() {
       <Route path='/timer' element={<Timer />} />
       <Route path='/car' element={<Demo />} />
       <Route path='/weatherapp' element={<WeatherApp />} />
+      <Route path='/todolist' element={<ToDoList />} />
       </Routes>
     </div>
     
